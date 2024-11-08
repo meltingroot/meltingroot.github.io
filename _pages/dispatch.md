@@ -2,6 +2,9 @@
 title: "dispatch"
 layout: archive
 permalink: /dispatch
+author_profile: true
+sidebar:
+    nav: "sidebar-category"
 ---
 
 {% assign posts = site.categories.dispatch %}
