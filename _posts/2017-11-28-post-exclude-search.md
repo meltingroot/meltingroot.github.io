@@ -4,6 +4,7 @@ search: false
 categories: 
   - Jekyll
 last_modified_at: 2018-02-19T08:06:00-05:00
+date: 2017-11-28T18:38:52+09:00
 ---
 
 This post should not appear in the search index because it has the following YAML Front Matter:
