@@ -20,12 +20,17 @@ toc_sticky : "true"
 
 ## 1 - 1. Git 버전 확인
 ![1-1]({{ "/assets/images/20241110/1-1.png" | relative_url}})
-<figcaption>안드로이드 스튜디오 → File → Settings </figcaption>
+{% capture notice_1-1 %}
+* 1) 안드로이드 스튜디오
+* 2) File
+* 3) Settings
+{% endcapture %}
+<div class="notice--info">
+  {{ notice_1-1 | markdownify }}
+</div>
 
 ## 1 - 2.  File  → Settings
 ![1-2]({{ "/assets/images/20241110/1-2.png" | relative_url}})
-<figcaption>Version Control → Git → test</figcaption>
-
 {% capture notice_1-2 %}
 * 1) Version Control 클릭
 * 2) Git 클릭
@@ -38,8 +43,7 @@ toc_sticky : "true"
 
 
 ## 1 -  3  버전 확인 완료
-
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/unsplash-image-9.jpg)
+![1-2]({{ "/assets/images/20241110/1-3.png" | relative_url}})
 
 git.exe의 경로를 입력해주면 됨.
 
@@ -47,55 +51,58 @@ git.exe의 경로를 입력해주면 됨.
 
 
 # Step 2:  GitHub 계정과 연동
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/unsplash-image-9.jpg)
-Version Control → GitHub → add Account...
+![2]({{ "/assets/images/20241110/2.png" | relative_url}})
+{% capture notice_2 %}
+* 1) Version Control
+* 2) GitHub
+* 3) add Account...
+{% endcapture %}
+<div class="notice--info">
+  {{ notice_2 | markdownify }}
+</div>
 
 
 # Step 3: Authorize in GitHub
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/unsplash-image-9.jpg)
+![3-1]({{ "/assets/images/20241110/3-1.png" | relative_url}})
+
 Authorize in GitHub 버튼을 클릭하면 GitHub 계정을 인증해야 한다
 
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/unsplash-image-9.jpg)
-1) 다음 해당 사용자 이름, 암호 입력창이 뜸.
-2) GitHub 계정을 입력한 후 로그인 버튼을 클릭
-→  로그인이 성공하면 다행이지만 나는 여기서 로그인이 되지 않았음...
+![3-2]({{ "/assets/images/20241110/3-2.png" | relative_url}})
+{% capture notice_3-2 %}
+* 1) 다음 해당 사용자 이름, 암호 입력창이 뜸.
+* 2) GitHub 계정을 입력한 후 로그인 버튼을 클릭
+* →  로그인이 성공하면 다행이지만 나는 여기서 로그인이 되지 않았음...
+{% endcapture %}
+<div class="notice--info">
+  {{ notice_3-2 | markdownify }}
+</div>
 
 
 # Step 4: 로그인 문제 발생 → "+" 버튼 클릭
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/unsplash-image-9.jpg)
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/unsplash-image-9.jpg)
-Login In with Token...
-- GitHub을 통해서 로그인하기
-- Token으로 로그인하기
-- GitHub Enterprise로 로그인하기 
+![4-1]({{ "/assets/images/20241110/4-1.png" | relative_url}})
+ 
+![4-2]({{ "/assets/images/20241110/4-2.png" | relative_url}})
+{% capture notice_4 %}
+* GitHub을 통해서 로그인하기
+* Token으로 로그인하기
+* GitHub Enterprise로 로그인하기
 → 총 세 가지 옵션이 있음.
  그중에 토큰을 선택
+{% endcapture %}
+<div class="notice--info">
+  {{ notice_4 | markdownify }}
+</div>
 
 
-Add `theme: "minimal-mistakes-jekyll"` to your `_config.yml` file.
+# Step 5: Add GitHub Account 
+![5]({{ "/assets/images/20241110/5.png" | relative_url}})
 
-If you're migrating from an existing Minimal Mistakes site you shouldn't have to change anything else after this. If it's a new site consult then docs to [properly config]({{ "/docs/configuration/" | relative_url }}).
 
-**Please Note:** Paths for image headers, overlays, teasers, [galleries]({{ "/docs/helpers/#gallery" | relative_url }}), and [feature rows]({{ "/docs/helpers/#feature-row" | relative_url }}) have changed and now require a full path. Instead of just `image: filename.jpg` you'll need to use the full path eg: `image: assets/images/filename.jpg`. The preferred location is now `assets/images` but can be placed elsewhere or external hosted. This all applies for image references in `_config.yml` and `author.yml` as well.
-{: .notice--danger}
-
-## Step 5: `jekyll new` Tweaks
-
-If this is a new site be sure to add the following files to `_data/` and customize as you see fit. There is currently no way of bundling them in with the theme, so be sure to consult the docs on how to properly use both.
-
-- [`_data/ui-text.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml) - UI text [documentation]({{ "/docs/ui-text/" | relative_url }})
-- [`_data/navigation.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_data/navigation.yml) - navigation [documentation]({{ "/docs/navigation/" | relative_url }})
-
-You'll also need to: 
-
-- Replace `<site root>/index.html` with a modified [Minimal Mistakes `index.html`](https://github.com/mmistakes/minimal-mistakes/blob/master/index.html).
-- Change `layout: post` in `_posts/0000-00-00-welcome-to-jekyll.markdown` to `layout: single`.
-- Remove `about.md`, or at the very least change `layout: page` to `layout: single` and remove references to `icon-github.html` (or [copy to your `_includes`](https://github.com/jekyll/minima/tree/master/_includes) if using).
-
----
-
-That's it! If all goes well running `bundle exec jekyll serve` should spin-up your site. If you encounter any bumps please file an issue on GitHub and make sure to indicate you're testing the pre-release Ruby gem version.
-
-[File an issue](https://github.com/mmistakes/minimal-mistakes/issues/new){: .btn .btn--info .btn--large}
-
-Thanks!
+# Step 6: 토큰을 발급받기 위해 Git 이동
+![6]({{ "/assets/images/20241110/6.png" | relative_url}})
+{% capture notice_6 %}
+* GitHub → Settings
+{% endcapture %}
+<div class="notice--info">
+  {{ notice_6 | markdownify }}
+</div>
