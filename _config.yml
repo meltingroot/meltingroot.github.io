@@ -115,8 +115,8 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : /assets/images/portrait.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "서울, 대한민국"
+  bio              : "Web/app service backend software engineer"
+  #location         : "서울, 대한민국"
   email            :
   links:
     - label: "Email"

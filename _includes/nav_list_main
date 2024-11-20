@@ -10,7 +10,7 @@
         <li><span>TOTAL <strong>{{sum}}</strong></span></li>
         
         <li>
-            <!--span 태그로 카테고리들을 크게 분류
+            <!--span 태그로 카테고리들을 크게 분류-->
             <span class="nav__sub-title">TOOLS</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
@@ -21,14 +21,11 @@
                 {% endfor %}
             </ul>
 
-            <span class="nav__sub-title">Test</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Jekyll" %}
-                        <li><a href="/categories/Jekyll" class="" style="font-size:.75rem;">Jekyll ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+            {% for category in site.categories %}
+                {% if category[0] == "culture" %}
+            <span class="nav__sub-title"><a href="/categories/culture" class="">개발문화 ({{category[1].size}})</a></span>
+                {% endif %}
+            {% endfor %}
         </li>
   </ul>
 </nav>
