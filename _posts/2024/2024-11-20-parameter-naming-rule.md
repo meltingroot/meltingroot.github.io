@@ -1,8 +1,7 @@
 ---
 title:  "참, 거짓을 반환 하는 함수의 네이밍"
-classes: wide
 categories: 
-  - Culture
+  - Programming
 ---
 
 참 거짓 값(`Boolean`, `bool`)을 반환하는 함수는 *"is"*로 시작하는 것이 일반적이라고 생각한다. 적어도 **C++** 에서는…  

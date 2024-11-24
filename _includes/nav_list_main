@@ -22,8 +22,8 @@
             </ul>
 
             {% for category in site.categories %}
-                {% if category[0] == "culture" %}
-            <span class="nav__sub-title"><a href="/categories/culture" class="">개발문화 ({{category[1].size}})</a></span>
+                {% if category[0] == "Programming" %}
+            <span class="nav__sub-title"><a href="/categories/Programming" class="">Programming ({{category[1].size}})</a></span>
                 {% endif %}
             {% endfor %}
         </li>
