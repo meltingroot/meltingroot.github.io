@@ -4,9 +4,10 @@ title:  "어려운 것을 쉽게 배우는 방법: 슈퍼 파워를 장착하기
 categories: 
   - Programming
 tags:
-  - Git
-  - Github
-  - Android Studio
+  - Learning
+  - Coding
+  - Life hacking
+  - Programming
 toc: true
 toc_label: "STEP"
 toc_sticky : "true"
@@ -28,8 +29,9 @@ toc_sticky : "true"
 새로운 기술을 배우기 위해서 가장 먼저 실행하는 첫 단계는, 머리로 이론을 학습 하려 하지 말고 어찌되었든 손을 움직여서 사용해 보는 것 입니다. 이러한 방식이야 말로 이론부터 머리속에 넣는 방법보다 훨씬 뛰어납니다.  
 그렇다고는 해도 배우고자 하는 테마에 대해서 아무 것도 모르는 상태 이므로 자력으로는 뭘 어찌 해 볼 도리가 없습니다.
 
-(youtube)  
-(캡션)Justine Michel의 Django 강좌는 완벽하게 "배우기전에 익숙해져라"라는 방식으로 진행이 됩니다.
+<iframe width="640" height="360" src="https://www.youtube.com/embed/d1UyEc6zIlw?si=TBW4_qVqbdR8TB4g" frameborder="0" allowfullscreen></iframe>  
+<figcaption>Justine Michel의 Django 강좌는 완벽하게 "배우기전에 익숙해져라"라는 방식으로 진행이 됩니다.</figcaption>
+<br>
 
 그래서 우리가 맨 먼저 할 일은 작은 뭔가를 더미로서 만드는 과정을 개략적으로 설명해주는 튜토리얼 영상을 찾는것 입니다. **저자가 설치부터 한 줄 한 줄 끝까지 코드를 설명해 주는 튜토리얼을 찾아 비디오를 보며 여러분도 똑같이 코딩해 보세요.** 그 연습용 프로젝트가 제대로 작동하는 것을 확인하며 한줄 한줄 쫓아가는 겁니다.
 
@@ -41,7 +43,7 @@ toc_sticky : "true"
 
 튜토리얼 비디오를 따라하는 과정속에서, 자신이 지금 무얼 하고 있는지 알 수가 없어 불안하게 느낄 수도 있습니다. 하지만 그런건 신경쓰지 마세요. 이해 할 수 없는 것은 일단 메모를 해 두고 2단계에서 다시 살펴 봅니다.
 
-이 단계의 핵심은 혼란 스럽거나 지식이 부족하더라도 일단 끝까지 튜토리얼을 한번은 쫓아가는것 입니다.
+**Note:** 이 단계의 핵심은 혼란 스럽거나 지식이 부족하더라도 일단 끝까지 튜토리얼을 한번은 쫓아가는것 입니다.
 {: .notice--info}
 
 이러한 방식의 단점을 넘어서는 장점은 다음과 같습니다.
@@ -49,8 +51,9 @@ toc_sticky : "true"
 ### 1. 첫날부터 일단 뭔가 만들어 본다
 첫날부터 실제로 뭔가를 만들기 때문에, 이론만 읽고 공부만 하는것 보다 만족감을 맛볼 수 있습니다. 그리고 이러한 만족감은 학습을 계속하려고 하는 의욕으로 연결됩니다.
 
-(이미지)  
-(캡션)제가 맨 처음 만든 Node.js서버 입니다. 두고두고 많은 참고가 되어 주었습니다.
+![1]({{ "/assets/images/20241124/1.webp" | relative_url}})
+<figcaption>제가 맨 처음 만든 Node.js서버 입니다. 두고두고 많은 참고가 되어 주었습니다.</figcaption>
+<br>
 
 ### 2. 샘플코드를 얻을 수 있다
 게다가 학습과정에서 언제든지 참고할 수 있는 샘플코드들이 여러분의 수중에 남게 됩니다. 이 단계에서 만들어진 샘플 코드들은 이후 단계에서 매우 유용하게 쓰여지게 됩니다.
@@ -62,24 +65,25 @@ toc_sticky : "true"
 
 학습을 시작하기 전에는 **무엇을 아는지 모르는지도 알 수 없는 상태**이기 때문에, 배우고자 하는 기술의 어떤 부분에 신경을 써야 하는지, 어느 부분이 까다로운 지를 알 방법이 없습니다. 그렇기 때문에 특히 주의가 필요합니다. 이러한 부분은 가능한 한 빨리 파악해 두는것이 필요 합니다만 이것이 하나의 장벽이 되지 않도록 이해하는 것은 나중에 천천히 해도 됩니다.
 
-
+---
 
 아래의 목록은 제가 다양한 테마를 배우기 시작하는데 있어서 많은 도움을 받은 튜토리얼들 입니다.
 
-Sentdex: Machine learning for investing (ML)
-Egghead.io: React Fundamentals (React.js)
-Justin Mitchel: Coding for Entrepreneurs (Django)
+* [Sentdex](https://medium.com/@Sentdex): [Machine learning for investing](https://www.youtube.com/playlist?list=PLQVvvaa0QuDd0flgGphKCej-9jp-QdzZ3)(ML)
+* [Egghead.io](https://x.com/eggheadio): React Fundamentals (React.js)
+* [Justin Mitchel](https://x.com/justinmitchel): [Coding for Entrepreneurs](https://www.codingforentrepreneurs.com/) (Django)
 
 
 ## 2단계: 난관에 도전하라
-
 1단계에서 언급한 교제를 적어도 한번 끝까지 마치고 나면 배우고자 하는 기술의 전체적인 구조에 대한 감을 잡을 수 있게 됩니다. 하지만 분명 아직까지는 머리속이 뒤죽박죽일 껍니다. 그래서 다음 단계는 이러한 혼란을 해소하는 것 입니다.
 
-React.js를 배우고 있다면, 그것은 상태와 속성의 차이가 무엇인지를 제대로 파악하는 것 일 겁니다. (참고로 여기를 읽어보시면 이해하실 수 있을것으로 생각합니다.)
+**Note:** React.js를 배우고 있다면, 그것은 상태와 속성의 차이가 무엇인지를 제대로 파악하는 것 일 겁니다. (참고로 [여기](https://medium.com/learning-new-stuff/learn-react-js-in-7-min-92a1ef023003#.sl1yxfy7w)를 읽어보시면 이해하실 수 있을것으로 생각합니다.)
+{: .notice--info}
 
 이 단계에서는 사실 구체적으로 추천할 수 있는 무언가가 없습니다. 기본적으로는 상황에 맞춰서 책, 공식문서, 스텍오버플로등 어떤 것이라도 살펴볼 필요가 있습니다.
 
-지난번 제가 이것을 경험한 것은 신경망의 코딩 방법을 공부 할 때 였습니다. 코세라 과정을 수강하고 알았지만 신경망의 전체를 이해할 수 있으려면 로지스틱 회귀를 이해할 필요가 있었던 겁니다. 그래서 로지스틱 회귀에 대한 기본적인 공부를 우선 마친 후에 다시 신경망에 대한 학습에 임한 결과 이번에는 훨씬 더 쉽게 이해할 수 있었습니다.
+>지난번 제가 이것을 경험한 것은 신경망의 코딩 방법을 공부 할 때 였습니다. 코세라 과정을 수강하고 알았지만 신경망의 전체를 이해할 수 있으려면 로지스틱 회귀를 이해할 필요가 있었던 겁니다. 그래서 로지스틱 회귀에 대한 기본적인 공부를 우선 마친 후에 다시 신경망에 대한 학습에 임한 결과 이번에는 훨씬 더 쉽게 이해할 수 있었습니다.
+
 
 ## 3단계: 뭔가 만들어 본다
 1단계와 2단계는 절대 건너 뛸 수 없는것 이지만 사실은 3단계를 위한 디딤돌에 지나지 않습니다. 새로운 기술을 배우고 싶다는 것은 그 기술로 뭔가를 만든다는 것 입니다. 드디어 이번 단계에서 이러한 목적을 실행에 옮깁니다.
@@ -88,7 +92,7 @@ React.js를 배우고 있다면, 그것은 상태와 속성의 차이가 무엇�
 
 왜냐구요? 실제로 무언가를 만드는 것이야 말로 진정한 의미에서의 배움의 완성이기 때문입니다.
 
-기술을 배우고 나서도 무언가를 만들지 않는다면 그건 진정한 배움이라 할 수 없습니다.
+**기술을 배우고 나서도 무언가를 만들지 않는다면 그건 진정한 배움이라 할 수 없습니다.**
 
 1단계와 2단계는 대충 넘길 수 있지만 3단계는 그럴 수가 없습니다. (여기서 말하는 만들기는 단순히 코드를 복사하고 붙여넣기가 아닙니다)
 
@@ -98,12 +102,14 @@ React.js를 배우고 있다면, 그것은 상태와 속성의 차이가 무엇�
 어디가서 자랑할 수준은 아니지만 저에게는 많은 공부가 되었습니다.
 
 
-Ajax — The Guardian API
-React — Note Taking App
-Neural Networks — Predictiong College Admissions
+* Ajax — [The Guardian API](https://github.com/foundry-matrix/The-Guardian)
+* React — [Note Taking App](https://github.com/foundry-matrix/NoteTakingApp)
+* Neural Networks — [Predictiong College Admissions](https://github.com/perborgen/NeuralNetworkNoob)
 
-
-제가 만든 최초의 Ajax프로젝트 입니다. 2014년 초순경에 Founders&Coders 팀으로서 구축에 참여하였습니다.
+<br>
+![2]({{ "/assets/images/20241124/2.webp" | relative_url}})
+<figcaption>제가 만든 최초의 Ajax프로젝트 입니다. 2014년 초순경에 Founders&Coders 팀으로서 구축에 참여하였습니다.</figcaption>
+<br>
 
 마지막으로 말씀드리고 싶은것은, 위에서 언급한 3단계는 때때로 얽혀 있기도 하여, 이 기사에서 적은것 처럼 순차적으로 진행되기만 하는것은 아니라는 점 입니다.
 
